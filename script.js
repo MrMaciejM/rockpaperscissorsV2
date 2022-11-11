@@ -1,3 +1,5 @@
+// console based rock, paper, scissors game
+
 // choices and winning conditionals
 var choices = ["r", "p", "s"];
 //var winningConditions = ["rs", "pr", "sp"];
