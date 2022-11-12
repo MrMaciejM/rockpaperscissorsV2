@@ -1,8 +1,8 @@
-# Rock, Paper, Scissors V2
+# Rock, Paper, Scissors V2 - console-based
 
 ## Description
 
-This is a small game of classic Rock, Paper, Scissors (RPS).
+This is a small game of classic Rock, Paper, Scissors (RPS) to be played on the browser console.
 
 The objective of this was to create a shorter version of the code, make it more readable and meet several conditions, such as:
 
