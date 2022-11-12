@@ -2,7 +2,9 @@
 
 // choices and winning conditionals
 var choices = ["r", "p", "s"];
-//var winningConditions = ["rs", "pr", "sp"];
+var winningConditions = ["rs", "pr", "sp"];
+
+// winningConditions.includes(choice)
 
 // score keeping
 var wins = 0;
@@ -22,6 +24,8 @@ for (roundCounter; roundCounter < 10; roundCounter++) {
     var randomGenerator = Math.floor(Math.random() * choices.length);
     var CPUchoice = choices[randomGenerator];
     var choiceOutcome = (userInput += CPUchoice);
+
+    var winningConditions = ["rs", "pr", "sp"];
 
     // when user wins!
     if (
